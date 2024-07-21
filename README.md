@@ -39,7 +39,7 @@ If you need explicit forwarding, please refer to https://github.com/tynefung/exp
 * Click on Create fork  
 
 #### Step 2: Configure the source domain name
-* Add a CNAME record in the DNS of your source domain to resolve to {username}. github.io or {orgname}.github.io. For example, my username is tynefung, so I should resolve it to tynefung.gitHub.io
+* Add a CNAME record in the DNS of your source domain to resolve to {username}.github.io or {orgname}.github.io. For example, my username is tynefung, so I should resolve it to tynefung.gitHub.io
 * Enter the project repository, click on the CNAME in Code, click the pencil button (Edit this file) to edit the file, and replace 'example. com' with the source domain name
 * Click on 'Commit changes' to submit the changes  
 * Click on Settings, select Pages under Code and Automation on the left menu, choose main/(root) in Branch, and click Save  
@@ -48,7 +48,7 @@ If you need explicit forwarding, please refer to https://github.com/tynefung/exp
 #### Step 3: Configure the target domain name
 * Enter the project repository, click on index.html in Code, click the pencil button (Edit this file) to edit the file, and then https://example.com Replace with target address  
 * Click on 'Commit changes' to submit the changes  
-* Using the same method to edit 404.exe https://example.com Replace with target address  
+* Using the same method to edit 404.html. Replace https://example.com with the target address  
   
 #### Completed
 * At this point, all configurations have been completed. Under normal circumstances, when accessing the source domain name, it will be implicitly forwarded to the target domain name.  
